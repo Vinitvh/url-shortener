@@ -1,3 +1,9 @@
+const onSubmitForm = (e) => {
+  e.preventDefault();
+  console.log(e.target["url"].value);
+}
+
+
 const map = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
 // Convert id to base 62
